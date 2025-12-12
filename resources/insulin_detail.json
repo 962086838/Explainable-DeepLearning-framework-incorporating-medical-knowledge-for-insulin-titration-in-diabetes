@@ -1,0 +1,332 @@
+{
+  "classifications": [
+    ["basal", "premix", "shot"],
+    ["长效", "预混30", "预混50", "短效", "超短效"],
+    [
+      "长效（基础）",
+      "中效",
+      "预混胰岛素30R",
+      "预混胰岛素50R",
+      "预混胰岛素类似物25-30",
+      "预混胰岛素类似物50",
+      "短效",
+      "超短效"
+    ]
+  ],
+  "insulin_list": [
+    {
+      "name": "短效人胰岛素(RI)",
+      "classes": ["shot", "短效", "短效"],
+      "onset_time_floor": 0.25,
+      "onset_time_ceil": 1.0,
+      "peak_time_floor": 2.0,
+      "peak_time_ceil": 4.0,
+      "duration_floor": 5,
+      "duration_ceil": 8,
+      "alias": [
+        "短效人胰岛素(RI)",
+        "诺和灵R",
+        "诺和灵R笔 300U",
+        "诺和灵R笔",
+        "(诺和灵)R笔-生物合成人胰岛素注射液",
+        "(诺和灵)R笔-重组人胰岛素注射液",
+        "诺和灵R 400U",
+        "(诺和灵)R-生物合成人胰岛素注射液",
+        "生物合成人胰岛素注射液",
+        "(警A)(诺和灵)R-生物合成人胰岛素注射液",
+        "(警A)[基](诺和灵)R-生物合成人胰岛素注射液",
+        "[基](诺和灵)R-生物合成人胰岛素注射液",
+        "(诺和灵)R-重组人胰岛素注射液",
+        "甘舒霖r",
+        "优泌林r",
+        "优泌林R笔",
+        "优泌林R笔 300u",
+        "优思灵"
+      ]
+    },
+    {
+      "name": "门冬胰岛素",
+      "classes": ["shot", "超短效", "超短效"],
+      "onset_time_floor": 0.17,
+      "onset_time_ceil": 0.25,
+      "peak_time_floor": 1.0,
+      "peak_time_ceil": 2.0,
+      "duration_floor": 4,
+      "duration_ceil": 6,
+      "alias": [
+        "门冬胰岛素",
+        "诺和锐",
+        "诺和锐 300u",
+        "(诺和锐)笔-门冬胰岛素注射液",
+        "门冬胰岛素",
+        "门冬胰岛素注射液"
+      ]
+    },
+    {
+      "name": "赖脯胰岛素",
+      "classes": ["shot", "超短效", "超短效"],
+      "onset_time_floor": 0.17,
+      "onset_time_ceil": 0.25,
+      "peak_time_floor": 1.0,
+      "peak_time_ceil": 1.5,
+      "duration_floor": 4,
+      "duration_ceil": 5,
+      "alias": [
+        "赖脯胰岛素",
+        "优泌乐",
+        "优泌乐 300u",
+        "(优泌乐)赖脯胰岛素注射液",
+        "赖脯胰岛素注射液"
+      ]
+    },
+    {
+      "name": "谷赖胰岛素",
+      "classes": ["shot", "超短效", "超短效"],
+      "onset_time_floor": 0.17,
+      "onset_time_ceil": 0.25,
+      "peak_time_floor": 1.0,
+      "peak_time_ceil": 2.0,
+      "duration_floor": 4,
+      "duration_ceil": 6,
+      "alias": ["谷赖胰岛素", "谷赖胰岛素注射液", "(艾倍得)谷赖胰岛素注射液"]
+    },
+    {
+      "name": "中效人胰岛素(NPH)",
+      "classes": ["basal", "长效", "中效"],
+      "onset_time_floor": 2.5,
+      "onset_time_ceil": 3.0,
+      "peak_time_floor": 5.0,
+      "peak_time_ceil": 7.0,
+      "duration_floor": 13,
+      "duration_ceil": 16,
+      "alias": [
+        "中效人胰岛素(NPH)",
+        "诺和灵N",
+        "诺和灵N笔 300U",
+        "诺和灵N 400U",
+        "甘舒霖n",
+        "优泌林n",
+        "优泌林N笔 300U",
+        "精蛋白锌重组人胰岛素注射液(中效型)"
+      ]
+    },
+    {
+      "name": "长效胰岛素(PZI)",
+      "classes": ["basal", "长效", "长效（基础）"],
+      "onset_time_floor": 3.0,
+      "onset_time_ceil": 4.0,
+      "peak_time_floor": 8.0,
+      "peak_time_ceil": 10.0,
+      "duration_floor": 20,
+      "duration_ceil": 20,
+      "alias": ["长效胰岛素(PZI)"]
+    },
+    {
+      "name": "甘精胰岛素 U100",
+      "classes": ["basal", "长效", "长效（基础）"],
+      "onset_time_floor": 2.0,
+      "onset_time_ceil": 3.0,
+      "peak_time_floor": 0.0,
+      "peak_time_ceil": 0.0,
+      "duration_floor": 30,
+      "duration_ceil": 30,
+      "alias": [
+        "甘精胰岛素 U100",
+        "来得时",
+        "来得时 300u",
+        "(来得时)甘精胰岛素注射液",
+        "甘精胰岛素注射液",
+        "长秀霖",
+        "(长秀霖)重组甘精胰岛素注射液",
+        "(长秀霖)甘精胰岛素注射液",
+        "重组甘精胰岛素注射液"
+      ]
+    },
+    {
+      "name": "甘精胰岛素 U300",
+      "classes": ["basal", "长效", "长效（基础）"],
+      "onset_time_floor": 6.0,
+      "onset_time_ceil": 6.0,
+      "peak_time_floor": 0.0,
+      "peak_time_ceil": 0.0,
+      "duration_floor": 36,
+      "duration_ceil": 36,
+      "alias": ["甘精胰岛素 U300"]
+    },
+    {
+      "name": "地特胰岛素",
+      "classes": ["basal", "长效", "长效（基础）"],
+      "onset_time_floor": 3.0,
+      "onset_time_ceil": 4.0,
+      "peak_time_floor": 3.0,
+      "peak_time_ceil": 14.0,
+      "duration_floor": 24,
+      "duration_ceil": 24,
+      "alias": [
+        "地特胰岛素",
+        "诺和平",
+        "诺和平 300u",
+        "(诺和平)特充-地特胰岛素注射液",
+        "地特胰岛素注射液",
+        "长效胰岛素（地特）１０u"
+      ]
+    },
+    {
+      "name": "德谷胰岛素",
+      "classes": ["basal", "长效", "长效（基础）"],
+      "onset_time_floor": 1.0,
+      "onset_time_ceil": 1.0,
+      "peak_time_floor": 0.0,
+      "peak_time_ceil": 0.0,
+      "duration_floor": 42,
+      "duration_ceil": 42,
+      "alias": ["德谷胰岛素", "(诺和达)德谷胰岛素注射液", "德谷胰岛素注射液"]
+    },
+    {
+      "name": "预混人胰岛素(30R，70/30)",
+      "classes": ["premix", "预混30", "预混胰岛素30R"],
+      "onset_time_floor": 0.5,
+      "onset_time_ceil": 0.5,
+      "peak_time_floor": 2.0,
+      "peak_time_ceil": 12.0,
+      "duration_floor": 14,
+      "duration_ceil": 24,
+      "alias": [
+        "预混人胰岛素(30R，70/30)",
+        "诺和灵30r",
+        "诺和灵30R",
+        "(诺和灵)30R-精蛋白生物合成人胰岛素注射液",
+        "(诺和灵)30R笔-精蛋白生物合成人胰岛素注射液",
+        "精蛋白生物合成人胰岛素注射液",
+        "诺和灵30/70笔 300U",
+        "诺和灵30/70 400U",
+        "甘舒霖30r",
+        "(甘舒霖)30/70笔-混合重组人胰岛素注射液",
+        "混合重组人胰岛素注射液",
+        "(甘舒霖)精蛋白人胰岛素混合注射液（30R）",
+        "甘舒霖30/70笔 300U",
+        "优泌林70/30",
+        "优泌林30/70笔",
+        "优泌林30/70笔 300u",
+        "(优泌林)70/30笔-精蛋白锌重组人胰岛素混合注射液",
+        "精蛋白锌重组人胰岛素混合注射液",
+        "优思灵30r",
+        "重和林M30",
+        "(重和林)M30笔-精蛋白重组人胰岛素注射液",
+        "精蛋白重组人胰岛素注射液"
+      ]
+    },
+    {
+      "name": "预混人胰岛素(40R)",
+      "classes": ["premix", "预混40", "预混胰岛素40R"],
+      "onset_time_floor": 0.5,
+      "onset_time_ceil": 0.5,
+      "peak_time_floor": 2.0,
+      "peak_time_ceil": 8.0,
+      "duration_floor": 24,
+      "duration_ceil": 24,
+      "alias": ["预混人胰岛素(40R)"]
+    },
+    {
+      "name": "预混人胰岛素(50R)",
+      "classes": ["premix", "预混50", "预混胰岛素50R"],
+      "onset_time_floor": 0.5,
+      "onset_time_ceil": 0.5,
+      "peak_time_floor": 2.0,
+      "peak_time_ceil": 3.0,
+      "duration_floor": 10,
+      "duration_ceil": 24,
+      "alias": [
+        "预混人胰岛素(50R)",
+        "诺和灵50R",
+        "(诺和灵)50R笔-精蛋白生物合成人胰岛素注射液",
+        "诺和灵50笔 300U",
+        "甘舒霖50r"
+      ]
+    },
+    {
+      "name": "预混门冬胰岛素 30",
+      "classes": ["premix", "预混30", "预混胰岛素类似物25-30"],
+      "onset_time_floor": 0.17,
+      "onset_time_ceil": 0.33,
+      "peak_time_floor": 1.0,
+      "peak_time_ceil": 4.0,
+      "duration_floor": 14,
+      "duration_ceil": 24,
+      "alias": [
+        "预混门冬胰岛素 30",
+        "诺和锐30",
+        "诺和锐30 300u",
+        "(诺和锐)30笔-门冬胰岛素30注射液",
+        "门冬胰岛素(诺和锐)300u/支",
+        "(诺和锐)30特充-门冬胰岛素30注射液",
+        "门冬胰岛素30注射液",
+        "门冬胰岛素30(诺和锐30)300u/支"
+      ]
+    },
+    {
+      "name": "预混门冬胰岛素 50",
+      "classes": ["premix", "预混50", "预混胰岛素类似物50"],
+      "onset_time_floor": 0.25,
+      "onset_time_ceil": 0.25,
+      "peak_time_floor": 0.5,
+      "peak_time_ceil": 1.17,
+      "duration_floor": 16,
+      "duration_ceil": 24,
+      "alias": [
+        "预混门冬胰岛素 50",
+        "诺和锐50",
+        "(诺和锐)50笔-门冬胰岛素50注射液",
+        "门冬胰岛素50注射液"
+      ]
+    },
+    {
+      "name": "预混赖脯胰岛素 25",
+      "classes": ["premix", "预混30", "预混胰岛素类似物25-30"],
+      "onset_time_floor": 0.25,
+      "onset_time_ceil": 0.25,
+      "peak_time_floor": 0.5,
+      "peak_time_ceil": 1.17,
+      "duration_floor": 16,
+      "duration_ceil": 24,
+      "alias": [
+        "预混赖脯胰岛素 25",
+        "优泌乐25",
+        "优泌乐25R",
+        "优泌乐25R 300u",
+        "(优泌乐)25-精蛋白锌重组赖脯胰岛素混合注射液",
+        "精蛋白锌重组赖脯胰岛素混合注射液"
+      ]
+    },
+    {
+      "name": "预混赖脯胰岛素 50",
+      "classes": ["premix", "预混50", "预混胰岛素类似物50"],
+      "onset_time_floor": 0.25,
+      "onset_time_ceil": 0.25,
+      "peak_time_floor": 0.5,
+      "peak_time_ceil": 1.17,
+      "duration_floor": 16,
+      "duration_ceil": 24,
+      "alias": [
+        "预混赖脯胰岛素 50",
+        "优泌乐50",
+        "(优泌乐)50-精蛋白锌重组赖脯胰岛素混合注射液"
+      ]
+    },
+    {
+      "name": "双胰岛素类似物(德谷门冬双胰岛素 70/30)",
+      "classes": ["premix", "预混70", "双胰岛素类似物70"],
+      "onset_time_floor": 14.0,
+      "onset_time_ceil": 14.0,
+      "peak_time_floor": 1.2,
+      "peak_time_ceil": 1.2,
+      "duration_floor": 24,
+      "duration_ceil": 24,
+      "alias": [
+        "双胰岛素类似物(德谷门冬双胰岛素 70/30)",
+        "（诺和佳）德谷门冬双胰岛素",
+        "德谷门冬胰岛素"
+      ]
+    }
+  ]
+}

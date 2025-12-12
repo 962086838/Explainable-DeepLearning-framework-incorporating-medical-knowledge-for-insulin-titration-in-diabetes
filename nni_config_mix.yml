@@ -1,0 +1,11 @@
+searchSpaceFile: search_space_mix.json
+trialCommand: python lt_mix_nni.py --gpus=1 --epochs=300 --ckpt_name="w10_mae_mix_model" --loss_name=mae 
+trialGpuNumber: 1
+trialConcurrency: 4
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: minimize
+trainingService:
+  platform: local
+  useActiveGpu: true

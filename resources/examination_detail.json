@@ -1,0 +1,184 @@
+[
+  {
+    "name": "空腹血糖(FPG)",
+    "standard_floor": 3.61,
+    "standard_ceil": 6.11,
+    "coe": 18.0,
+    "alias": ["空腹血糖(FPG)", "空腹血糖", "FPG"]
+  },
+  {
+    "name": "甘油三酯(TG)",
+    "standard_floor": 0.56,
+    "standard_ceil": 1.7,
+    "coe": 88.57,
+    "alias": ["甘油三酯(TG)", "甘油三酯", "TG"]
+  },
+  {
+    "name": "总胆固醇(TC)",
+    "standard_floor": 2.84,
+    "standard_ceil": 5.68,
+    "coe": 38.67,
+    "alias": ["总胆固醇(TC)", "总胆固醇", "TC"]
+  },
+  {
+    "name": "高密度脂蛋白胆固醇(HDL-C)",
+    "standard_floor": 1.14,
+    "standard_ceil": 1.76,
+    "coe": 38.67,
+    "alias": ["高密度脂蛋白胆固醇(HDL-C)", "高密度脂蛋白胆固醇", "HDL-C"]
+  },
+  {
+    "name": "低密度脂蛋白胆固醇(LDL-C)",
+    "standard_floor": 2.1,
+    "standard_ceil": 3.1,
+    "coe": 38.67,
+    "alias": ["低密度脂蛋白胆固醇(LDL-C)", "低密度脂蛋白胆固醇", "LDL-C"]
+  },
+  {
+    "name": "钾(K+)",
+    "standard_floor": 3.5,
+    "standard_ceil": 5.5,
+    "coe": 1.0,
+    "alias": ["钾(K+)", "钾"]
+  },
+  {
+    "name": "钠(Na+)",
+    "standard_floor": 135.0,
+    "standard_ceil": 145.0,
+    "coe": 1.0,
+    "alias": ["钠(Na+)", "钠"]
+  },
+  {
+    "name": "氯(Cl-)",
+    "standard_floor": 96.0,
+    "standard_ceil": 106.0,
+    "coe": 1.0,
+    "alias": ["氯(Cl-)", "氯"]
+  },
+  {
+    "name": "钙(Ca2+)",
+    "standard_floor": 2.12,
+    "standard_ceil": 2.75,
+    "coe": 4.008,
+    "alias": ["钙(Ca2+)", "钙"]
+  },
+  {
+    "name": "磷(P)",
+    "standard_floor": 0.97,
+    "standard_ceil": 1.62,
+    "coe": 3.097,
+    "alias": ["磷(P)", "磷"]
+  },
+  {
+    "name": "尿素氮(BUN)",
+    "standard_floor": 3.6,
+    "standard_ceil": 14.2,
+    "coe": 1.401,
+    "alias": ["尿素氮(BUN)", "尿素氮"]
+  },
+  {
+    "name": "肌酐(Cr)",
+    "standard_floor": 44.0,
+    "standard_ceil": 133.0,
+    "coe": 0.011,
+    "alias": ["肌酐(Cr)", "肌酐"]
+  },
+  {
+    "name": "尿酸(UA)",
+    "standard_floor": 150.0,
+    "standard_ceil": 420.0,
+    "coe": 0.013,
+    "alias": ["尿酸(UA)", "尿酸"]
+  },
+  {
+    "name": "二氧化碳结合力(CO2CP)",
+    "standard_floor": 22.0,
+    "standard_ceil": 28.0,
+    "coe": 2.226,
+    "alias": ["二氧化碳结合力(CO2CP)", "二氧化碳结合力", "CO2CP"]
+  },
+  {
+    "name": "收缩压(SBP)",
+    "standard_floor": 90.0,
+    "standard_ceil": 140.0,
+    "coe": 0.133,
+    "alias": ["收缩压(SBP)", "收缩压"]
+  },
+  {
+    "name": "舒张压(DBP)",
+    "standard_floor": 60.0,
+    "standard_ceil": 90.0,
+    "coe": 0.133,
+    "alias": ["舒张压(DBP)", "舒张压"]
+  },
+  {
+    "name": "总胆红素(T-Bil)",
+    "standard_floor": 3.4,
+    "standard_ceil": 20.0,
+    "coe": 0.058,
+    "alias": ["总胆红素(T-Bil)", "总胆红素", "T-Bil"]
+  },
+  {
+    "name": "直接胆红素(D-Bil)",
+    "standard_floor": 0.0,
+    "standard_ceil": 7.0,
+    "coe": 0.058,
+    "alias": ["直接胆红素(D-Bil)", "直接胆红素", "D-Bil"]
+  },
+  {
+    "name": "血清总蛋白(TP)",
+    "standard_floor": 60.0,
+    "standard_ceil": 80.0,
+    "coe": 0.1,
+    "alias": ["血清总蛋白(TP)", "血清总蛋白"]
+  },
+  {
+    "name": "血清白蛋白(ALB)",
+    "standard_floor": 40.0,
+    "standard_ceil": 55.0,
+    "coe": 0.1,
+    "alias": ["血清白蛋白(ALB)", "血清白蛋白", "ALB"]
+  },
+  {
+    "name": "血清球蛋白(GLO)",
+    "standard_floor": 20.0,
+    "standard_ceil": 30.0,
+    "coe": 0.1,
+    "alias": ["血清球蛋白(GLO)", "血清球蛋白"]
+  },
+  {
+    "name": "丙氨酸氨基转移酶(ALT,GPT)",
+    "standard_floor": 0.0,
+    "standard_ceil": 40.0,
+    "coe": 0.0,
+    "alias": ["丙氨酸氨基转移酶(ALT,GPT)", "丙氨酸氨基转移酶"]
+  },
+  {
+    "name": "天冬氨酸氨基转移酶(AST,GOT)",
+    "standard_floor": 0.0,
+    "standard_ceil": 40.0,
+    "coe": 0.0,
+    "alias": ["天冬氨酸氨基转移酶(AST,GOT)", "天冬氨酸氨基转移酶"]
+  },
+  {
+    "name": "碱性磷酸酶(ALP,AKP)",
+    "standard_floor": 40.0,
+    "standard_ceil": 160.0,
+    "coe": 0.0,
+    "alias": ["碱性磷酸酶(ALP,AKP)", "碱性磷酸酶"]
+  },
+  {
+    "name": "胰岛素",
+    "standard_floor": 27.9,
+    "standard_ceil": 83.6,
+    "coe": 0.144,
+    "alias": ["胰岛素"]
+  },
+  {
+    "name": "C肽",
+    "standard_floor": 0.3,
+    "standard_ceil": 1.3,
+    "coe": 3.0,
+    "alias": ["C肽"]
+  }
+]

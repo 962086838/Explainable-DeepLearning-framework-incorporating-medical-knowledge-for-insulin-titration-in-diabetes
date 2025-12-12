@@ -1,0 +1,30 @@
+{
+  "lr": { "_type": "choice", "_value": [0.01, 0.001, 0.0001] },
+  "optimizer_name": { "_type": "choice", "_value": ["adam", "sgd"] },
+  "lr_scheduler_name": {
+    "_type": "choice",
+    "_value": ["cosine", "cosine_warm"]
+  },
+  "batch_size": { "_type": "choice", "_value": [32, 64, 128, 256] },
+
+  "use_weather": { "_type": "choice", "_value": [0, 1] },
+  "max_feature_days": { "_type": "choice", "_value": [5, 6, 7, 8, 9, 10, 11] },
+
+  "mlp_encode_dilation": { "_type": "randint", "_value": [2, 7] },
+  "mlp_output_dim": { "_type": "choice", "_value": [64, 128, 256] },
+  "mlp_encode_blocks": { "_type": "choice", "_value": [2, 3, 4, 5] },
+  "mlp_encode_dropout": { "_type": "quniform", "_value": [0, 0.6, 0.1] },
+
+  "dense_hidden_size": { "_type": "choice", "_value": [64, 128, 256] },
+  "dense_dropout": { "_type": "quniform", "_value": [0, 0.6, 0.1] },
+
+  "pool_name": { "_type": "choice", "_value": ["max", "avg"] },
+  "activation_name": { "_type": "choice", "_value": ["relu", "smu", "prelu"] },
+
+  "attn_dim": { "_type": "choice", "_value": [64, 128, 256, 512, 1024] },
+  "attn_num_heads": { "_type": "choice", "_value": [1, 2, 4, 8] },
+
+  "rnn_name": { "_type": "choice", "_value": ["gru", "lstm"] },
+  "rnn_hidden_size": { "_type": "choice", "_value": [128, 256, 512] },
+  "rnn_num_layers": { "_type": "choice", "_value": [1, 2, 3] }
+}

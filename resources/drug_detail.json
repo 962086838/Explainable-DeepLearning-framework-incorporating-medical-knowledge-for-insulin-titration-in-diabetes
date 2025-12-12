@@ -1,0 +1,313 @@
+{
+  "class_list": ["hormone", "hypoglycemic"],
+  "drug_list": [
+    {
+      "name": "格列吡嗪",
+      "alias": ["格列吡嗪", "格列吡嗪片"],
+      "dosage_floor": 2.5,
+      "dosage_ceil": 30,
+      "onset_time_floor": 8,
+      "onset_time_ceil": 12,
+      "half_life_floor": 2,
+      "half_life_ceil": 4,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "格列吡嗪控释片",
+      "alias": ["格列吡嗪控释片"],
+      "dosage_floor": 5,
+      "dosage_ceil": 20,
+      "onset_time_floor": 6,
+      "onset_time_ceil": 12,
+      "half_life_floor": 2,
+      "half_life_ceil": 5,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "格列齐特",
+      "alias": ["格列齐特", "格列齐特片", "格列齐特片(II)"],
+      "dosage_floor": 80,
+      "dosage_ceil": 320,
+      "onset_time_floor": 10,
+      "onset_time_ceil": 20,
+      "half_life_floor": 6,
+      "half_life_ceil": 12,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "格列齐特缓释片",
+      "alias": ["格列齐特缓释片"],
+      "dosage_floor": 30,
+      "dosage_ceil": 120,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": 12,
+      "half_life_ceil": 20,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "格列喹酮",
+      "alias": ["格列喹酮", "格列喹酮片"],
+      "dosage_floor": 30,
+      "dosage_ceil": 180,
+      "onset_time_floor": 8,
+      "onset_time_ceil": 8,
+      "half_life_floor": 1.5,
+      "half_life_ceil": 1.5,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "格列美脲",
+      "alias": ["格列美脲", "格列美脲片"],
+      "dosage_floor": 1,
+      "dosage_ceil": 8,
+      "onset_time_floor": 24,
+      "onset_time_ceil": 24,
+      "half_life_floor": 5,
+      "half_life_ceil": 5,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "西格列汀二甲双胍片",
+      "alias": ["西格列汀二甲双胍片", "西格列汀二甲双胍片"],
+      "dosage_floor": -1,
+      "dosage_ceil": -1,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "二甲双胍",
+      "alias": ["二甲双胍", "盐酸二甲双胍片"],
+      "dosage_floor": 500,
+      "dosage_ceil": 2000,
+      "onset_time_floor": 5,
+      "onset_time_ceil": 6,
+      "half_life_floor": 1.5,
+      "half_life_ceil": 1.8,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "二甲双胍缓释片",
+      "alias": ["二甲双胍缓释片", "盐酸二甲双胍缓释片"],
+      "dosage_floor": 500,
+      "dosage_ceil": 2000,
+      "onset_time_floor": 8,
+      "onset_time_ceil": 8,
+      "half_life_floor": 6.2,
+      "half_life_ceil": 6.2,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "阿卡波糖",
+      "alias": ["阿卡波糖", "阿卡波糖片"],
+      "dosage_floor": 100,
+      "dosage_ceil": 300,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "伏格列波糖",
+      "alias": ["伏格列波糖", "伏格列波糖片"],
+      "dosage_floor": 0.2,
+      "dosage_ceil": 0.9,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "瑞格列奈",
+      "alias": ["瑞格列奈", "瑞格列奈片"],
+      "dosage_floor": 1,
+      "dosage_ceil": 16,
+      "onset_time_floor": 4,
+      "onset_time_ceil": 6,
+      "half_life_floor": 1,
+      "half_life_ceil": 1,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "那格列奈",
+      "alias": ["那格列奈", "那格列奈片"],
+      "dosage_floor": 120,
+      "dosage_ceil": 360,
+      "onset_time_floor": 1.3,
+      "onset_time_ceil": 1.3,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "罗格列酮",
+      "alias": ["罗格列酮", "马来酸罗格列酮片", "罗格列酮片"],
+      "dosage_floor": 4,
+      "dosage_ceil": 8,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": 3,
+      "half_life_ceil": 4,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "吡格列酮",
+      "alias": ["吡格列酮", "盐酸吡格列酮片"],
+      "dosage_floor": 15,
+      "dosage_ceil": 45,
+      "onset_time_floor": 2,
+      "onset_time_ceil": 2,
+      "half_life_floor": 3,
+      "half_life_ceil": 7,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "西格列汀",
+      "alias": ["西格列汀", "西格列汀片", "磷酸西格列汀片"],
+      "dosage_floor": 100,
+      "dosage_ceil": 100,
+      "onset_time_floor": 24,
+      "onset_time_ceil": 24,
+      "half_life_floor": 12.4,
+      "half_life_ceil": 12.4,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "沙格列汀",
+      "alias": ["沙格列汀", "沙格列汀片"],
+      "dosage_floor": 5,
+      "dosage_ceil": 5,
+      "onset_time_floor": 24,
+      "onset_time_ceil": 24,
+      "half_life_floor": 2.5,
+      "half_life_ceil": 2.5,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "维格列汀",
+      "alias": ["维格列汀", "维格列汀片"],
+      "dosage_floor": 100,
+      "dosage_ceil": 100,
+      "onset_time_floor": 24,
+      "onset_time_ceil": 24,
+      "half_life_floor": 2,
+      "half_life_ceil": 2,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "利格列汀",
+      "alias": ["利格列汀", "利格列汀片"],
+      "dosage_floor": 5,
+      "dosage_ceil": 5,
+      "onset_time_floor": 1.5,
+      "onset_time_ceil": 1.5,
+      "half_life_floor": 12,
+      "half_life_ceil": 12,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "阿格列汀",
+      "alias": ["阿格列汀", "阿格列汀片", "苯甲酸阿格列汀片"],
+      "dosage_floor": 25,
+      "dosage_ceil": 25,
+      "onset_time_floor": 1,
+      "onset_time_ceil": 2,
+      "half_life_floor": 21,
+      "half_life_ceil": 21,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "艾塞那肽",
+      "alias": ["艾塞那肽", "艾塞那肽注射液"],
+      "dosage_floor": 0.01,
+      "dosage_ceil": 0.02,
+      "onset_time_floor": 10,
+      "onset_time_ceil": 10,
+      "half_life_floor": 2.4,
+      "half_life_ceil": 2.4,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "利拉鲁肽",
+      "alias": ["利拉鲁肽", "利拉鲁肽注射液"],
+      "dosage_floor": 0.6,
+      "dosage_ceil": 1.8,
+      "onset_time_floor": 24,
+      "onset_time_ceil": 24,
+      "half_life_floor": 13,
+      "half_life_ceil": 13,
+      "classes": "hypoglycemic"
+    },
+    {
+      "name": "醋酸地塞米松片",
+      "alias": ["醋酸地塞米松片"],
+      "dosage_floor": 0.75,
+      "dosage_ceil": 3,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hormone"
+    },
+    {
+      "name": "醋酸泼尼松片",
+      "alias": ["醋酸泼尼松片"],
+      "dosage_floor": 5,
+      "dosage_ceil": 10,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hormone"
+    },
+    {
+      "name": "醋酸泼尼松龙片",
+      "alias": ["醋酸泼尼松龙片"],
+      "dosage_floor": 15,
+      "dosage_ceil": 40,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hormone"
+    },
+    {
+      "name": "醋酸可的松片",
+      "alias": ["醋酸可的松片"],
+      "dosage_floor": 25,
+      "dosage_ceil": 37.5,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hormone"
+    },
+    {
+      "name": "注射用甲泼尼龙琥珀酸钠",
+      "alias": ["注射用甲泼尼龙琥珀酸钠"],
+      "dosage_floor": 40,
+      "dosage_ceil": 40,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hormone"
+    },
+    {
+      "name": "甲泼尼龙片",
+      "alias": ["甲泼尼龙片"],
+      "dosage_floor": 4,
+      "dosage_ceil": 49,
+      "onset_time_floor": -1,
+      "onset_time_ceil": -1,
+      "half_life_floor": -1,
+      "half_life_ceil": -1,
+      "classes": "hormone"
+    }
+  ]
+}

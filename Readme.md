@@ -1,6 +1,6 @@
 *This is the code repository for our paper "Explainable deep learning framework incorporating medical knowledge for insulin titration in diabetes".*
 
-## Installation
+## 📦Installation
 
 To run this project, you will need **Conda** (Anaconda or Miniconda) installed.
 
@@ -24,7 +24,7 @@ conda env create -f environment.yml
 conda activate insulin
 ```
 
-## Train the interpretation model
+## 🛠️Train the interpretation model
 
 
 The command of running the interpretation algorithm:

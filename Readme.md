@@ -6,8 +6,8 @@ To run this project, you will need **Conda** (Anaconda or Miniconda) installed.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-cd your-repo
+git clone [https://github.com/962086838/Explainable-DeepLearning-framework-incorporating-medical-knowledge-for-insulin-titration-in-diabetes.git](https://github.com/your-username/your-repo.git)
+cd Explainable-DeepLearning-framework-incorporating-medical-knowledge-for-insulin-titration-in-diabetes/
 ```
 
 ### 2. Set up the environment
